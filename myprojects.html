@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">My Projects</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="index.html">About</a></li>
+          <li><a href="#projects">Collection</a></li>
+          <li><a href="myprojects.html">My Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">My Projects</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="index.html" onclick="toggleMenu()">About</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Collection</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          <li><a href="myprojects.html" onclick="toggleMenu()">MY Projects</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/propic2-removebg-preview (2).png" alt="John Doe profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Tharaka Vimukthi</h1>
+        <p class="section__text__p2">UI/UX Designer & Frontend Developer</p>
+        <div class="btn-container">
+         <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+          <button
+              class="btn btn-color-2"
+              onclick="window.location.href='https://drive.google.com/drive/folders/1oT2ef-FE_HDG_2v4zsTORqgrdzPG1Va4?usp=drive_link'"
+            >
+              Google Drive
+          </button>
+        </div>
+        
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/tharaka-vimukthi-44a316201'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/Chipzy98'"
+          />
+          <img
+            src="./assets/fiverr.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://www.fiverr.com/s/rEoZB4b'"
+          />
+        </div>
+      </div>
+    </section>
+    
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Collection</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <!-- start -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Home.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+
+            <h2 class="experience-sub-title project-title">Ocean One Hotel UI/UX Design
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.figma.com/design/jD0s6FiubSl11fPhsEQuFs/Ocean-One-Hotel-Sri-Lanka?node-id=0-1&t=Kirimg7xR7Vg5fzp-1'"
+              >
+                Figma
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/drive/folders/1xbQdlQ2AM2U2o-5oWv9zuFRz0dWRjsE6?usp=drive_link'"
+              >
+              UI Drive
+              </button>
+            </div>
+          </div>
+          <!-- end -->
+         <!-- new one -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Landing Page.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+
+            <h2 class="experience-sub-title project-title">Travel agency website UI/UX Design<br><br>
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.figma.com/design/PI5zT4DVl8GaPBcNn8Qbl2/Travel-Agency?node-id=0-1&t=LYRmpiZjYJqYmGsS-1'"
+              >
+                Figma
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/drive/folders/162BQlCGgk6mk5wxpQg05ZvQui70X5MoP?usp=drive_link'"
+              >
+              UI Drive
+              </button>
+            </div>
+          </div>
+          <!-- End -->
+           
+
+          <!-- Start -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/6.PROFILE 1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Healthcare e-commerce applications UI Design</h2>
+            <div class="btn-container">
+             
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.figma.com/design/xpe05z7kqXFxcWe5TuqTam/Healthcare-e-commerce-applications-UI%2FUX-Design?node-id=1-798&t=rjvtFstSxCmhXpGw-1'"
+              >
+                Figma
+              </button>
+            </div>
+          </div>
+          <!-- End -->
+
+          <!-- start -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Supeshala.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+
+            <h2 class="experience-sub-title project-title">Photography Website Home page UI/UX Design<br>
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.figma.com/design/HuC77l2rlqaV3qizTerHV0/WEB-For-Photographer?node-id=0-1&t=5G0I6V4ZsxEa6Qp1-1'"
+              >
+                Figma
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/drive/folders/1xbQdlQ2AM2U2o-5oWv9zuFRz0dWRjsE6?usp=drive_link'"
+              >
+              UI Drive
+              </button>
+            </div>
+          </div>
+          <!-- end -->
+
+          <!-- start -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Slide2.JPG"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+
+            <h2 class="experience-sub-title project-title">IOS Smart Watch Application UI/UX Design  <br>(Adobe XD)
+
+                <br><br><br>
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/drive/folders/1T8Nejf3boBmtJn-pymwr9-D6c6MErnP8?usp=drive_link'"
+              >
+              UI Drive
+              </button>
+            </div>
+          </div>
+          <!-- end -->
+
+          <!-- start -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/slashcsreen.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+
+            <h2 class="experience-sub-title project-title">CoCo Doctor Mobile App UI/UX Design
+            </h2>
+            <div class="btn-container">
+              
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/file/d/1x0US_e2TrSfDoEEwLVMNoeRozhoC0BLc/view?usp=drive_link'"
+              >
+              UI Drive
+              </button>
+            </div>
+          </div>
+          <!-- end -->
+
+           <!-- start -->
+           <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Reshome.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+
+            <h2 class="experience-sub-title project-title">Restaurant Website (Home Page) UI/UX Design
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.figma.com/design/HuC77l2rlqaV3qizTerHV0/WEB-For-Photographer?node-id=0-1&t=5G0I6V4ZsxEa6Qp1-1'"
+              >
+                Figma
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/drive/folders/1Ij0QWP8fuuXyGr7BZQZj67Kgm2ZbeHQL?usp=drive_link'"
+              >
+              UI Drive
+              </button>
+            </div>
+          </div>
+          <!-- end -->
+            <!-- start -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/csHome.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+
+            <h2 class="experience-sub-title project-title">Online Clothing Store UI/UX Design<br>
+            </h2>
+            <div class="btn-container">
+              
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/drive/folders/1COYH8T7mNDPKjY1jNuCLCxjlpiim07Ra?usp=drive_link'"
+              >
+              UI Drive
+              </button>
+            </div>
+          </div>
+          <!-- end -->
+            <!-- start -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/sin.jpg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+
+            <h2 class="experience-sub-title project-title">Sign-In & Sign-Up Pages UI/UX Design (Shopping Store)<br><br>
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.figma.com/design/EKZV08j40tJ2vmoCPPXRGg/Clothing-Brand-UI-Test-(eBEYONDS)?node-id=0-1&t=lHVxFO5APjhUgu7q-1'"
+              >
+                Figma
+              </button>
+              
+            </div>
+          </div>
+          <!-- end -->
+       
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:vimukthit19@gmail.com">Gmail</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/tharaka-vimukthi-44a316201">Linkedin</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/fiverr.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.fiverr.com/s/rEoZB4b">Fiverr</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Tharaka Vimukthi. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
